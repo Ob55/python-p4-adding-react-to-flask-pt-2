@@ -11,6 +11,7 @@ fake = Faker()
 
 def make_movies():
 
+
     Movie.query.delete()
     
     movies = []
